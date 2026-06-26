@@ -18,7 +18,7 @@ Built strictly using Python's native standard libraries as per the [roadmap.sh T
 
 1. Clone this repository and navigate into the root directory:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/task-tracker.git](https://github.com/YOUR_USERNAME/task-tracker.git)
+   git clone (https://github.com/jessielynpuli/task-tracker.git)
    cd task-tracker
 
 
