@@ -74,7 +74,7 @@ Bash
 Data Structure
 Your data is stored safely in your project directory in a structured tasks.json file following this schema:
 
-JSON
+`
 [
   {
     "id": 1,
@@ -83,4 +83,4 @@ JSON
     "createdAt": "2026-06-26T18:11:38",
     "updatedAt": "2026-06-26T18:11:38"
   }
-]
+]`
