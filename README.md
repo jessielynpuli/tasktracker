@@ -29,9 +29,9 @@ Once installed, use the global command executable `tasktrack` followed by your a
 ##1. Adding Tasks
 Create a new task. The status defaults to todo.
 
-   ``bash
+   ```bash
    tasktrack add "Buy groceries"
-   Output: Task added successfully (ID: 1)``
+   Output: Task added successfully (ID: 1)
 
 ##2. Updating and Deleting Tasks
 Modify or remove an existing task by targeting its unique ID:
