@@ -21,12 +21,13 @@ Built strictly using Python's native standard libraries as per the [roadmap.sh T
    git clone (https://github.com/jessielynpuli/task-tracker.git)
    cd task-tracker
 
+---
 
-#USAGE GUIDE
+# USAGE GUIDE
 
 Once installed, use the global command executable `tasktrack` followed by your actions.
 
-##1. Adding Tasks
+## 1. Adding Tasks
 Create a new task. The status defaults to todo.
 
    ``bash
@@ -34,7 +35,7 @@ Create a new task. The status defaults to todo.
    Output: Task added successfully (ID: 1)``
 
 
-##2. Updating and Deleting Tasks
+## 2. Updating and Deleting Tasks
 Modify or remove an existing task by targeting its unique ID:
 
 Bash
@@ -44,7 +45,7 @@ Bash
 ### Delete a task
 `tasktrack delete 1`
 
-##3. Changing Task Status
+## 3. Changing Task Status
 Quickly toggle the progress state of your tasks using their IDs:
 
 Bash
@@ -54,7 +55,7 @@ Bash
 ### Mark as done
 `tasktrack mark-done 1`
 
-##4. Listing Tasks
+## 4. Listing Tasks
 List everything in your tracker, or isolate tasks dynamically by their current execution status:
 
 Bash
