@@ -10,7 +10,7 @@ Built strictly using Python's native standard libraries as per the [roadmap.sh T
 * **Auto-Incrementing IDs:** Every task is assigned a unique tracking ID automatically.
 * **Status Filtering:** View all tasks, or filter dynamically by `done`, `todo`, or `in-progress`.
 
----
+--- 
 
 ## Installation
 
