@@ -29,46 +29,46 @@ Once installed, use the global command executable `tasktrack` followed by your a
 ##1. Adding Tasks
 Create a new task. The status defaults to todo.
 
-   ```bash
+   ``bash
    tasktrack add "Buy groceries"
-   Output: Task added successfully (ID: 1)
+   Output: Task added successfully (ID: 1)``
+
 
 ##2. Updating and Deleting Tasks
 Modify or remove an existing task by targeting its unique ID:
 
 Bash
 ### Update description
-tasktrack update 1 "Buy groceries and cook dinner"
+`tasktrack update 1 "Buy groceries and cook dinner"`
 
 ### Delete a task
-tasktrack delete 1
+`tasktrack delete 1`
 
 ##3. Changing Task Status
 Quickly toggle the progress state of your tasks using their IDs:
 
 Bash
 ### Mark as in progress
-tasktrack mark-in-progress 1
+`tasktrack mark-in-progress 1`
 
 ### Mark as done
-tasktrack mark-done 1
-
+`tasktrack mark-done 1`
 
 ##4. Listing Tasks
 List everything in your tracker, or isolate tasks dynamically by their current execution status:
 
 Bash
 ### List all tasks
-tasktrack list
+`tasktrack list`
 
 ### List tasks that are done
-tasktrack list done
+`tasktrack list done`
 
 ### List tasks that are still to be done
-tasktrack list todo
+`tasktrack list todo`
 
 ### List tasks currently in progress
-tasktrack list in-progress
+`tasktrack list in-progress`
 
 Data Structure
 Your data is stored safely in your project directory in a structured tasks.json file following this schema:
